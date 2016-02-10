@@ -14,8 +14,9 @@ class SampleBackViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .blueColor()
         
-        let button = UIButton(type: .System)
+        let button = UIButton(type: .Custom)
         button.setTitle("Toggle", forState: .Normal)
+        button.setTitleColor(.whiteColor(), forState: .Normal)
         button.addTarget(self, action: "togglePressed", forControlEvents: .TouchUpInside)
         button.sizeToFit()
         button.center = CGPoint(x: view.frame.width/2.0, y: 50)

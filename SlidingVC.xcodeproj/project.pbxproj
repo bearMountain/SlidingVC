@@ -13,6 +13,7 @@
 		011106351C6B0AC7006AE549 /* SlidingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011106341C6B0AC7006AE549 /* SlidingContainerViewController.swift */; };
 		011106371C6B0AFB006AE549 /* SampleFrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011106361C6B0AFB006AE549 /* SampleFrontViewController.swift */; };
 		011106391C6B0B0D006AE549 /* SampleBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011106381C6B0B0D006AE549 /* SampleBackViewController.swift */; };
+		01AF77E61C6B3014006F1016 /* ScreenGrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AF77E51C6B3014006F1016 /* ScreenGrab.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		011106341C6B0AC7006AE549 /* SlidingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingContainerViewController.swift; sourceTree = "<group>"; };
 		011106361C6B0AFB006AE549 /* SampleFrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleFrontViewController.swift; sourceTree = "<group>"; };
 		011106381C6B0B0D006AE549 /* SampleBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleBackViewController.swift; sourceTree = "<group>"; };
+		01AF77E51C6B3014006F1016 /* ScreenGrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenGrab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		011106201C6B09E8006AE549 /* SlidingVC */ = {
 			isa = PBXGroup;
 			children = (
+				01AF77E51C6B3014006F1016 /* ScreenGrab.png */,
 				011106211C6B09E8006AE549 /* AppDelegate.swift */,
 				011106341C6B0AC7006AE549 /* SlidingContainerViewController.swift */,
 				011106361C6B0AFB006AE549 /* SampleFrontViewController.swift */,
@@ -135,6 +138,7 @@
 			files = (
 				0111062C1C6B09E8006AE549 /* LaunchScreen.storyboard in Resources */,
 				011106291C6B09E8006AE549 /* Assets.xcassets in Resources */,
+				01AF77E61C6B3014006F1016 /* ScreenGrab.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				011106321C6B09E8006AE549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
